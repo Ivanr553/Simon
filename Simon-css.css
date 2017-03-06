@@ -1,0 +1,196 @@
+* {
+  user-select: none;
+}
+body {
+  background: url("http://res.cloudinary.com/ivanrwd/image/upload/v1488751021/Wood_Desk_Background_Wood_grain_texture_desktop_lashaq.jpg");
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+#simon-body {
+  width: 590px;
+  height: 400px;
+  background-color: rgb(12, 12, 12);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 360px / 250px;
+  position: relative;
+  user-select: none;
+}
+.button {
+  width: 230px;
+  height: 180px;
+  margin: 5px;
+  position: absolute;
+}
+#button-r {
+  background-color: rgb(237, 7, 7);
+  opacity: 0.8;
+  right: 50px;
+  top: 20px;
+  transform: skewx(20deg);
+  border-top-right-radius: 160px;
+  border-top-left-radius: 50px;
+  cursor: pointer;
+}
+#button-g {
+  background-color: rgba(1, 173, 27, 1);
+  opacity: 0.5;
+  right: 50px;
+  bottom: 20px;
+  transform: rotate(180deg) skewx(340deg);
+  border-top-left-radius: 160px;
+  border-top-right-radius: 50px;
+  cursor: pointer;
+}
+#button-b {
+  background-color: rgba(31, 70, 226, 1);
+  opacity: 0.5;
+  left: 50px;
+  top: 20px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 50px;
+  transform: skewx(340deg);
+  cursor: pointer;
+}
+#button-y {
+  background-color: rgba(255, 255, 17, 1);
+  opacity: 0.5;
+  left: 50px;
+  bottom: 20px;
+  border-top-right-radius: 160px;
+  border-top-left-radius: 50px;
+  transform: rotate(180deg) skewx(20deg);
+  cursor: pointer;
+}
+#onoff {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 100px;
+  position: absolute;
+  left: 253px;
+  top: 220px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(51, 33, 33);
+}
+#onoff:active {
+  top: 221px;
+}
+#start{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 100px;
+  position: absolute;
+  left: 315px;
+  top: 220px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(51, 33, 33);
+}
+#start:active {
+  top: 221px;
+}
+#strict {
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  border-radius: 100px;
+  position: absolute;
+  left: 365px;
+  top: 195px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(51, 33, 33);
+}
+#strict:active {
+  top: 196px;
+}
+#counter {
+  width: 61px;
+  height: 42px;
+  position: absolute;
+  top: 153px;
+  left: 264px;
+  resize: none;
+  font-size: 29px;
+  background-color: rgb(44, 0, 0);
+  color: rgb(175, 7, 7);
+  border-color: grey;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+  outline: none;
+  overflow: hidden;
+  padding-top: 0px;
+}
+#v-bar {
+  background-color: rgb(12, 12, 12);
+  position: absolute;
+  width: 60px;
+  height: 380px;
+  left: 265px;
+  top: 15px;
+}
+#h-bar {
+  background-color: rgb(12, 12, 12);
+  position: absolute;
+  width: 55px;
+  height: 570px;
+  left: 268px;
+  top: -85px;
+  transform: rotate(90deg);
+}
+#c-circle {
+  background-color: rgb(12, 12, 12);
+  width: 250px;
+  height: 150px;
+  border-radius: 150px / 90px;
+  position: absolute;
+  left: 170px;
+  top: 125px;
+}
+.label {
+  color: white;
+  font-size: 11px;
+  position: absolute;
+}
+#label-o {
+  left: 248px;
+  top: 250px;
+}
+#label-st {
+  top: 225px;
+  left: 365px;
+}
+#label-s {
+  top: 249px;
+  left: 316px;
+}
+#label-c {
+  top: 200px;
+  left: 275px;
+}
+#light {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  left: 390px;
+  top: 185px;
+  opacity: 0.5;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(51, 33, 33);
+  /*box-shadow: 0px 0px 10px red;*/
+}
